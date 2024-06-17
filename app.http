@@ -1,0 +1,178 @@
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/?category=HOME
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/?status=TO%20DO
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/?priority=HIGH
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/?priority=HIGH&status=IN%20PROGRESS
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/?search_q=Buy
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/?category=WORK&status=DONE
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/?category=LEARNING&priority=HIGH
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/?category=OFFICE
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/?status=START
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/?priority=INTERMEDIATE
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/?date=20-20-2022
+
+
+
+
+
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/5/
+
+
+
+GET https://harikau8aqonjscadoqbs.drops.nxtwave.tech/agenda/?date=2021-02-22
+
+
+
+POST https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/
+Content-Type : application/json
+
+{
+ "id": 6,
+ "todo": "Finalize event theme",
+ "priority": "LOW",
+ "status": "TO DO",
+ "category": "HOME",
+ "dueDate": "2021-02-22"
+}
+POST https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/
+Content-Type : application/json
+
+{
+ "id": 2,
+ "todo": "Buy a Car",
+ "priority": "MEDIUM",
+ "status": "TO DO",
+ "category": "HOME",
+ "dueDate": "2021-09-22"
+}
+
+POST https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/
+Content-Type : application/json
+
+{
+ "id": 6,
+ "todo": "Finalize event theme",
+ "priority": "LOW",
+ "status": "START",
+ "category": "HOME",
+ "dueDate": "2021-02-22"
+}
+
+POST https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/
+Content-Type : application/json
+
+{
+ "id": 6,
+ "todo": "Finalize event theme",
+ "priority": "LOW",
+ "status": "TO DO",
+ "category": "OFFICE",
+ "dueDate": "2021-02-22"
+}
+
+POST https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/
+Content-Type : application/json
+
+{
+ "id": 6,
+ "todo": "Finalize event theme",
+ "priority": "INTERMEDIATE",
+ "status": "TO DO",
+ "category": "HOME",
+ "dueDate": "2021-02-22"
+}
+
+POST https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/
+Content-Type : application/json
+
+{
+ "id": 6,
+ "todo": "Finalize event theme",
+ "priority": "LOW",
+ "status": "TO DO",
+ "category": "HOME",
+ "dueDate": "2021-20-22"
+}
+
+
+
+
+PUT https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/2/
+Content-Type : application/json
+
+{
+ "todo": "Clean the garden"
+}
+
+PUT https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/5/
+Content-Type : application/json
+
+{
+ "status": "DONE"
+}
+
+PUT https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/5/
+Content-Type : application/json
+
+{
+ "priority": "HIGH"
+}
+
+PUT https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/5/
+Content-Type : application/json
+
+{
+ "category": "LEARNING"
+}
+
+PUT https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/5/
+Content-Type : application/json
+
+{
+ "dueDate": "2021-01-12"
+}
+
+PUT https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/5/
+Content-Type : application/json
+
+{
+ "status": "START"
+}
+
+PUT https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/5/
+Content-Type : application/json
+
+{
+ "priority": "INTERMEDIATE"
+}
+
+PUT https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/5/
+Content-Type : application/json
+
+{
+ "category": "XYZ"
+}
+
+PUT https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/5/
+Content-Type : application/json
+
+{
+ "dueDate": "2021-20-12"
+}
+
+
+
+
+
+
+DELETE https://harikau8aqonjscadoqbs.drops.nxtwave.tech/todos/2/
